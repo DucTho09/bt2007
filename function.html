@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bài tập ôn luyện Function</title>
+</head>
+<body>
+	<h2>Ôn luyện Function</h2>
+	<script type="text/javascript">
+		var a,b
+		function nhapa() {
+			a = parseInt(prompt('Nhập giá trị a: '))
+		}
+		function nhapb() {
+			b = parseInt(prompt('Nhập giá trị b: '))
+		}
+		function phepcong() {
+			document.write('Kết Quả: '+(a+b))
+		}
+		function pheptru() {
+			document.write('Kết quả: '+(a-b))
+		}
+		function phepnhan() {
+			document.write('Kết Quả: '+(a*b))
+		}
+		function phepchia() {
+			document.write('Kết quả: '+(a/b))
+		}
+		
+	</script>
+	<div style="padding: 5px;">
+		<button onclick="nhapa()">Nhập Giá Trị Của A</button><br>
+		<button onclick="nhapb()">Nhập Giá Trị Của B</button><br>
+	</div>
+	<div style="padding: 5px">
+		<button style="line-height: 1.5;" onclick="phepcong()">Kết Quả Cộng</button><br>
+		<button onclick="pheptru()" style="line-height: 1.5">Kết Quả Trừ</button><br>
+		<button onclick="phepnhan()" style="line-height: 1.5">Kết Quả Nhân</button><br>
+		<button onclick="phepchia()" style="line-height: 1.5">Kết Quả Chia</button><br>
+		
+	</div>
+
+</body>
+</html>
